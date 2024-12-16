@@ -1,0 +1,55 @@
+.framed-area {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin-left: -20px;
+    width: 100vw; /* Full viewport width */
+    height: 50vh; /* Half viewport height */
+    display: flex;
+    justify-content: space-between; /* Place sections side by side */
+    align-items: center; /* Align vertically */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #b07b7b;
+    box-sizing: border-box; /* Include padding in width/height */
+  }
+  
+  .left-section, .right-section {
+    flex: 1; /* Divide the container into two equal parts */
+    padding: 20px;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align text to the left */
+  }
+  
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align button to the left */
+  }
+  
+  .framed-text {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .framed-button {
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .framed-button:hover {
+    background-color: #005582;
+  }
+  
