@@ -1,9 +1,9 @@
 .framed-area {
     border: 2px solid #ddd;
     padding: 20px;
-    margin-left: -20px;
-    width: 100vw; /* Full viewport width */
-    height: 50vh; /* Half viewport height */
+    
+    width: 100%; /* Full viewport width */
+    height: 60vh; /* bitter more than Half viewport height */
     display: flex;
     justify-content: space-between; /* Place sections side by side */
     align-items: center; /* Align vertically */
@@ -24,6 +24,9 @@
     justify-content: center;
     align-items: flex-start; /* Align text to the left */
   }
+  .Topic{
+    margin-left: 40%;
+  }
   
   .left-section {
     display: flex;
@@ -33,23 +36,9 @@
   }
   
   .framed-text {
-    font-size: 1.2rem;
+    
     color: #333;
     margin-bottom: 1rem;
   }
   
-  .framed-button {
-    background-color: #0073b1;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .framed-button:hover {
-    background-color: #005582;
-  }
   

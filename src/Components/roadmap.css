@@ -1,0 +1,50 @@
+.roadmap-area {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 0 auto; /* Center the container */
+    width: 100%; /* Full width   chnage the 100 vh width*/
+    height: 60vh; /* Slightly more than half viewport height */
+    display: flex;
+    justify-content: flex-start; /* Align content to the left side */
+    align-items: center; /* Align vertically */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #4c5c48;
+    box-sizing: border-box;
+  }
+  
+  .section {
+    flex: 1; /* Take up half of the container */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: flex-start; /* Align content to the left */
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 1.1rem;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .section a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0073b1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .section a:hover {
+    background-color: #005582;
+  }
+  

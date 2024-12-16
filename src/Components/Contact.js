@@ -3,7 +3,7 @@ import './Contact.css'; // Import a new CSS file for the form-specific styles
 
 const Contact = () => {
   return (
-    <form action="https://formspree.io/f/meoqqloe" method="POST" id="form-box">
+    <form action="https://formspree.io/f/mjkvqwej" method="POST" id="form-box">
       <label htmlFor="name">Full Name:</label>
       <input type="text" id="name" name="name" placeholder="Enter your full name..." required />
 
