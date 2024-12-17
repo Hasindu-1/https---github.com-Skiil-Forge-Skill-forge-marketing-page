@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">MyLogo</div>
+      <div className="navbar-logo">SkillForge</div>
       <button className="navbar-toggle" onClick={toggleMenu} aria-label="Toggle menu">
         ☰
       </button>

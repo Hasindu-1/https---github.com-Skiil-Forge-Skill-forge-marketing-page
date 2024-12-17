@@ -25,10 +25,10 @@ const Aboutproject = () => {
       
     
       {/* Centralized Tech Competitions */}
-      <article>
+      <article className="first">
           <h3>1. Centralized Tech Competitions</h3>
           <ul>
-            <li>Separate portals for Students and Organizers</li>
+            <li>Separate portals for<br></br> Students and Organizers</li>
             <li>Student Dashboard</li>
             <li>Organizer Dashboard</li>
             <li>IT Professionals Dashboard</li>
@@ -36,7 +36,7 @@ const Aboutproject = () => {
         </article>
 
         {/* Student Features */}
-        <article>
+        <article className="second">
           <h3>2. Student Features</h3>
           <ul>
             <li>Gamified Rewards and Badges</li>
@@ -48,7 +48,7 @@ const Aboutproject = () => {
         </article>
 
         {/* Organizer Features */}
-        <article>
+        <article className="third">
           <h3>3. Organizer Features</h3>
           <ul>
             <li>Event Organization & Management</li>
@@ -60,14 +60,14 @@ const Aboutproject = () => {
         </article>
 
         {/* Common Features */}
-        <article>
+        <article className="fourth">
           <h3>4. Common Features</h3>
           <ul>
             <li>Activity Feed for Community Interaction</li>
             <li>Competition Listings</li>
             <li>Notifications & Alerts</li>
             <li>Team Formation & Collaboration Tools</li>
-            <li>User Profiles for Students, Organizers, and Professionals</li>
+            <li>User Profiles for Students,Organizers,<br></br> and Professionals</li>
           </ul>
         </article>
     </div>

@@ -19,8 +19,8 @@ function App() {
   // Team Member Data
   const teamMembers = [
     {
-      name: "John Doe",
-      role: "Project Manager",
+      name: "L.W Fernando",
+      role: "Project Manager/Full-stack developer",
       image: teamImage1,
       socialLinks: [
         { name: "Facebook", url: "https://facebook.com", icon: facebookIcon },
@@ -29,8 +29,8 @@ function App() {
       ],
     },
     {
-      name: "Jane Smith",
-      role: "Frontend Developer",
+      name: "K.A.A Indipa",
+      role: "Full-stack developer",
       image: teamImage2,
       socialLinks: [
         { name: "Facebook", url: "https://facebook.com", icon: facebookIcon },
@@ -39,8 +39,8 @@ function App() {
       ],
     },
     {
-      name: "Jane Smith",
-      role: "Frontend Developer",
+      name: "M.K Chaniru Manmitha",
+      role: "UI/UX designer",
       image: teamImage2,
       socialLinks: [
         { name: "Facebook", url: "https://facebook.com", icon: facebookIcon },
@@ -49,8 +49,8 @@ function App() {
       ],
     },
     {
-      name: "John Doe",
-      role: "Project Manager",
+      name: "P.K Madushi Tharaka",
+      role: "UI/UX designer",
       image: teamImage1,
       socialLinks: [
         { name: "Facebook", url: "https://facebook.com", icon: facebookIcon },
@@ -59,8 +59,8 @@ function App() {
       ],
     },
     {
-      name: "John Doe",
-      role: "Project Manager",
+      name: "K.A.D.C.Kariyapperuma",
+      role: "Web Developer",
       image: teamImage1,
       socialLinks: [
         { name: "Facebook", url: "https://facebook.com", icon: facebookIcon },
@@ -69,8 +69,8 @@ function App() {
       ],
     },
     {
-      name: "John Doe",
-      role: "Project Manager",
+      name: "E.M.H.P Bandara",
+      role: "Full-stack developer",
       image: teamImage1,
       socialLinks: [
         { name: "Facebook", url: "https://facebook.com", icon: facebookIcon },
@@ -89,22 +89,25 @@ function App() {
       <div style={{ marginTop: "80px", padding: "20px" }}> {/* IF this one is not set can remove it will set all in one page without deviding the content */}
         <section id="theme">
            <FramedArea />
+           <hr></hr>
         </section>
 
-        {/*Roadmap */}
+        {/*About Us*/}
         <section id="aboutproject">
           <Aboutproject></Aboutproject>
+          <hr></hr>
         </section>
 
         {/*Roadmap */}
         <section id="Roadmap">
           <Roadmap></Roadmap>
+          <hr></hr>
         </section>
        
         
         {/* Team Members Section */}
         <section id="team" className="Team-members">
-          <h1 style={{ margin: "40px 0", color: "#4CAF50" }}>Meet Our Team</h1>
+          <h1 style={{ margin: "40px 0", color: "" }}>Meet Our Team</h1>
           <div className="team-container">
             {teamMembers.map((member, index) => (
               <TeamMemberBox

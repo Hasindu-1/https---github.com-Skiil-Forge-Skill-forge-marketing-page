@@ -1,9 +1,10 @@
 /* Footer Styles */
 
 .footer {
-    background-color: #1c1d29; /* Dark background for contrast */
+    background: linear-gradient(to right, #0d1b2a, #4e92ff);
     color: #ffffff; /* White text */
     text-align: center;
+    height: 50px;
     padding: 20px 0;
     font-family: "Open Sans", sans-serif;
     font-size: 0.9rem;
