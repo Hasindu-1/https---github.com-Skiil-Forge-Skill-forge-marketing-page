@@ -1,44 +1,40 @@
+
+.left-section, .right-section {
+  flex: 1; /* Divide the container into two equal parts */
+  display: flex; /* Make content alignment possible */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Align text to center */
+  padding: 20px;
+}
+.heading{
+  font-size: 30px;
+}
+
+.Topic {
+  position: absolute; /* Position the element relative to the parent */
+  top: 10px; /* Place it 10px from the top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust to perfectly center the text */
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Ensure the text is centered */
+  font-size: 2rem; /* Optional: Make it stand out more */
+  font-weight: bold;
+  color: #333; /* Optional: Ensure it's visible against the background */
+}
+
 .framed-area {
-    border: 2px solid #ddd;
-    padding: 20px;
-    
-    width: 100%; /* Full viewport width */
-    height: 60vh; /* bitter more than Half viewport height */
-    display: flex;
-    justify-content: space-between; /* Place sections side by side */
-    align-items: center; /* Align vertically */
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #b07b7b;
-    box-sizing: border-box; /* Include padding in width/height */
-  }
-  
-  .left-section, .right-section {
-    flex: 1; /* Divide the container into two equal parts */
-    padding: 20px;
-  }
-  
-  .right-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; /* Align text to the left */
-  }
-  .Topic{
-    margin-left: 40%;
-  }
-  
-  .left-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; /* Align button to the left */
-  }
-  
-  .framed-text {
-    
-    color: #333;
-    margin-bottom: 1rem;
-  }
-  
-  
+  position: relative; /* Set a reference point for absolute positioning */
+  border-radius: 3%;
+  border: 2px solid #ddd;
+  padding: 20px;
+  width: 100%; /* Full viewport width */
+  height: 60vh; /* Slightly more than half viewport height */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom, #e0e0e0, #a0a0a0); /* Gray linear gradient */
+  box-sizing: border-box; /* Include padding in width/height */
+}

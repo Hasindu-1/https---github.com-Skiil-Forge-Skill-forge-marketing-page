@@ -6,18 +6,9 @@ const FramedArea = () => {
     <div className="framed-area">
       {/* Left Section */}
       <div className="left-section">
-        <h1 className='Topic'>Theme </h1>
         <p className="framed-text">
-        Welcome to the left section! Here you can place additional text.
-        Welcome to the left section! Here you can place additional text.
-        Welcome to the left section! Here you can place additional text.
-        Welcome to the left section! Here you can place additional text.
-        Welcome to the left section! Here you can place additional text.
-        Welcome to the left section! Here you can place additional text.
-        Welcome to the left section! Here you can place additional text.
-        Welcome to the left section! Here you can place additional text.
-        Welcome to the left section! Here you can place additional text.
-        Welcome to the left section! Here you can place additional text.
+          <h2 className="heading">Empowering IT Students through Centralized Tech Competitions and Achievements</h2>
+        
         </p>
       </div>
 
