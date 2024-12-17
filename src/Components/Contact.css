@@ -52,7 +52,7 @@
 /* Submit button styles */
 #form-box button {
   padding: 12px 20px;
-  background-color: #4CAF50; /* Green button */
+  background-color: #4c53af; /* Green button */
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -63,7 +63,7 @@
 }
 
 #form-box button:hover {
-  background-color: #45a049; /* Slightly darker green */
+  background-color: #4556a0; /* Slightly darker green */
 }
 
 /* Responsive adjustments for small screens */

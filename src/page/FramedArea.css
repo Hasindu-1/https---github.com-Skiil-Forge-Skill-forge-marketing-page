@@ -6,22 +6,32 @@
   align-items: center; /* Center vertically */
   text-align: center; /* Align text to center */
   padding: 20px;
+ 
 }
 .heading{
   font-size: 30px;
 }
 
-.Topic {
-  position: absolute; /* Position the element relative to the parent */
-  top: 10px; /* Place it 10px from the top */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Adjust to perfectly center the text */
-  margin: 0; /* Remove default margin */
-  text-align: center; /* Ensure the text is centered */
-  font-size: 2rem; /* Optional: Make it stand out more */
-  font-weight: bold;
-  color: #333; /* Optional: Ensure it's visible against the background */
+
+.framed-text {
+  font-family: 'Poppins', Arial, sans-serif; /* Friendly and modern font */
+  font-size: 1rem; /* Smaller size for paragraph text */
+  color: white; /* Neutral color for readability */
+  line-height: 1.6; /* Improved spacing for better readability */
+  margin: 10px 0; /* Space around the paragraph */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a dark shadow to the text */
 }
+
+.heading {
+  font-family: 'Poppins', Arial, sans-serif; /* Same font for consistency */
+  font-size: 2.5rem; /* Bigger font for the heading */
+  font-weight: bold; /* Bold to make it stand out */
+  color: white; /* Text color */
+  margin: 15px 0; /* Space around the heading */
+  text-align: center; /* Center-align the heading */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Add a more pronounced shadow */
+}
+
 
 .framed-area {
   position: relative; /* Set a reference point for absolute positioning */
@@ -35,6 +45,10 @@
   align-items: center; /* Center content vertically */
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(to bottom, #e0e0e0, #a0a0a0); /* Gray linear gradient */
   box-sizing: border-box; /* Include padding in width/height */
+  background-image:url(../images/360_F_434100803_wCDBPHkVXP9gIDizFYtQSLPillD9AAmw.jpg);
+  background-position: center;
+  background-repeat:no-repeat ;
+  background-size:cover ;
+  
 }

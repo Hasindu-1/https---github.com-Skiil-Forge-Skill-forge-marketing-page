@@ -7,16 +7,13 @@ const FramedArea = () => {
       {/* Left Section */}
       <div className="left-section">
         <p className="framed-text">
+          <p>Build-up a professional Career Dashboard</p>
           <h2 className="heading">Empowering IT Students through Centralized Tech Competitions and Achievements</h2>
         
         </p>
       </div>
 
-      {/* Right Section     */}
-      <div className="right-section">
-        <>left section</>
-        <p><b><i>Add a pic in here</i></b></p>
-      </div>
+      
     </div>
   );
 };
