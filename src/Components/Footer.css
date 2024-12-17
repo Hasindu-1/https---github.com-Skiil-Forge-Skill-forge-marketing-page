@@ -1,0 +1,30 @@
+/* Footer Styles */
+
+.footer {
+    background-color: #1c1d29; /* Dark background for contrast */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9rem;
+    width: 103%;
+    margin-left: -20px;
+}
+  
+  .footer p {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.6;
+}
+  
+  .footer a {
+    color: #ff6a00; /* Orange accent color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #ffa940; /* Lighter orange on hover */
+  }
+  
+  

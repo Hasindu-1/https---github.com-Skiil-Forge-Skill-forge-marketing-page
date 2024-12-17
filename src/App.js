@@ -13,6 +13,7 @@ import twitterIcon from "./icons/5296516_tweet_twitter_twitter logo_icon.png"
 import Contact from "./Components/Contact";
 import Roadmap from "./Components/Roadmap";
 import Aboutproject from "./Components/Aboutproject";
+import Footer from "./Components/Footer";
 
 function App() {
   // Team Member Data
@@ -127,6 +128,7 @@ function App() {
      
 
 
+      <Footer></Footer>
 
       </div>
     </div>
