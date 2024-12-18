@@ -1,6 +1,9 @@
 /* General Container */
 .roadmap-container {
-  background-color: #d4d9da;
+  background-image: url('../images/pngtree-image_16396144.jpg'); /* Add your background image here */
+  background-size: cover; /* Make the image cover the entire container */
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 40px 20px;
   color: #000000;
   text-align: center;
@@ -49,8 +52,8 @@
   justify-content: center;
   align-items: flex-end;
   position: relative;
-  margin-top: 30rem; /* Add margin to avoid clipping */
-  padding-bottom: 10px; /* Extra space for content */
+  margin-top: 40rem;
+  padding-bottom: 50px;
 }
 
 .roadmap-circle {
@@ -63,7 +66,7 @@
   height: 120px;
   border-radius: 50%;
   background-color: #ffffff;
-  margin: 40px 40px; /* Add vertical and horizontal margins */
+  margin: 40px 25px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   color: #333333;
   text-align: center;
@@ -80,28 +83,48 @@
   border-bottom: 20px solid #333333; /* Arrow color */
 }
 
+/* Center Images in Circles */
 .circle-icon {
-  font-size: 32px;
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width of the circle */
+  height: 100%; /* Full height of the circle */
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
+.icon-image {
+  width: 80px; /* Adjust image size */
+  height: 80px;
+  object-fit: contain;
+}
+
+/* Title and Description Adjustments */
 .circle-title {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
-  margin-top: 5px;
+  color: #6fff98;
+  margin-top: 10px;
+  transform: translateY(-12rem); /* Adjust to avoid clipping */
 }
 
 .circle-description {
-  font-size: 10px;
+  font-size: 14px;
   margin: 4px 0;
+  color: #ffffff;
+  font-weight: bolder;
+  transform: translateY(-12rem);
 }
 
 .circle-step {
+  transform: translateY(1rem);
   position: absolute;
   bottom: -35px;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: bold;
-  color: #555555;
+  color: #ffffff;
 }
 
 /* Colors for Circles */
