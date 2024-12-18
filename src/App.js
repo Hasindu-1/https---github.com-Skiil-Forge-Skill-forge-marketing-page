@@ -103,8 +103,8 @@ function App() {
           <Roadmap></Roadmap>
           <hr></hr>
         </section>
-       
-        
+
+
         {/* Team Members Section */}
         <section id="team" className="Team-members">
           <h1 style={{ margin: "40px 0", color: "" }}>Meet Our Team</h1>
@@ -128,7 +128,7 @@ function App() {
           <h1>Contact us</h1>
           <Contact></Contact>
         </section>
-     
+
 
 
       <Footer></Footer>

@@ -1,50 +1,148 @@
-.roadmap-area {
-    border: 2px solid #ddd;
-    padding: 20px;
-    margin: 0 auto; /* Center the container */
-    width: 100%; /* Full width   chnage the 100 vh width*/
-    height: 60vh; /* Slightly more than half viewport height */
-    display: flex;
-    justify-content: flex-start; /* Align content to the left side */
-    align-items: center; /* Align vertically */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #4c5c48;
-    box-sizing: border-box;
-  }
-  
-  .section {
-    flex: 1; /* Take up half of the container */
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: flex-start; /* Align content to the left */
-  }
-  
-  .section h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .section p {
-    font-size: 1.1rem;
-    color: #ffffff;
-    line-height: 1.6;
-  }
-  
-  .section a {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #0073b1;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
-  }
-  
-  .section a:hover {
-    background-color: #005582;
-  }
-  
+/* General Container */
+.roadmap-container {
+  background-color: #d4d9da;
+  padding: 40px 20px;
+  color: #000000;
+  text-align: center;
+  position: relative;
+  overflow: visible; /* Ensure all content is visible */
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Q-level Header */
+.q-header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.q-header div {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 25px;
+  color: #ffffff;
+}
+
+.q1 {
+  background-color: #f39c12;
+}
+.q2 {
+  background-color: #e74c3c;
+}
+.q3 {
+  background-color: #16a085;
+}
+.q4 {
+  background-color: #8e44ad;
+}
+
+/* Wave Line and Circles */
+.wave-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  margin-top: 30rem; /* Add margin to avoid clipping */
+  padding-bottom: 10px; /* Extra space for content */
+}
+
+.roadmap-circle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin: 40px 40px; /* Add vertical and horizontal margins */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  color: #333333;
+  text-align: center;
+}
+
+/* Arrow pointing to the circle */
+.roadmap-circle .arrow {
+  position: absolute;
+  top: -40px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #333333; /* Arrow color */
+}
+
+.circle-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.circle-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.circle-description {
+  font-size: 10px;
+  margin: 4px 0;
+}
+
+.circle-step {
+  position: absolute;
+  bottom: -35px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #555555;
+}
+
+/* Colors for Circles */
+.q1 {
+  border: 5px solid #f39c12;
+}
+
+.q2 {
+  border: 5px solid #e74c3c;
+}
+
+.q3 {
+  border: 5px solid #16a085;
+}
+
+.q4 {
+  border: 5px solid #8e44ad;
+}
+
+/* Updated Wave Alignment */
+.roadmap-circle:nth-child(1) {
+  transform: translateY(1rem);
+}
+.roadmap-circle:nth-child(2) {
+  transform: translateY(-1rem);
+}
+.roadmap-circle:nth-child(3) {
+  transform: translateY(-4rem);
+}
+.roadmap-circle:nth-child(4) {
+  transform: translateY(-12rem);
+}
+.roadmap-circle:nth-child(5) {
+  transform: translateY(-16rem);
+}
+.roadmap-circle:nth-child(6) {
+  transform: translateY(-24rem);
+}
+.roadmap-circle:nth-child(7) {
+  transform: translateY(-26rem);
+}
+.roadmap-circle:nth-child(8) {
+  transform: translateY(-27rem);
+}
