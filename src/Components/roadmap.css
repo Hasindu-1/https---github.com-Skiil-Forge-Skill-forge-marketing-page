@@ -1,26 +1,56 @@
 /* General Container */
 .roadmap-container {
-  background-color: #5c7354; /* Green background */
+  background-color: #d4d9da;
   padding: 40px 20px;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   position: relative;
+  overflow: visible; /* Ensure all content is visible */
 }
 
 .heading {
   font-size: 24px;
   font-weight: bold;
-  color: #000000;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
-/* Wave Line */
+/* Q-level Header */
+.q-header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.q-header div {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 25px;
+  color: #ffffff;
+}
+
+.q1 {
+  background-color: #f39c12;
+}
+.q2 {
+  background-color: #e74c3c;
+}
+.q3 {
+  background-color: #16a085;
+}
+.q4 {
+  background-color: #8e44ad;
+}
+
+/* Wave Line and Circles */
 .wave-line {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   position: relative;
+  margin-top: 30rem; /* Add margin to avoid clipping */
+  padding-bottom: 10px; /* Extra space for content */
 }
 
 .roadmap-circle {
@@ -33,62 +63,86 @@
   height: 120px;
   border-radius: 50%;
   background-color: #ffffff;
-  margin: 20px;
+  margin: 40px 40px; /* Add vertical and horizontal margins */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   color: #333333;
   text-align: center;
 }
 
+/* Arrow pointing to the circle */
+.roadmap-circle .arrow {
+  position: absolute;
+  top: -40px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #333333; /* Arrow color */
+}
+
 .circle-icon {
   font-size: 32px;
-  margin-bottom: 8px;
-}
-
-.circle-content {
-  font-size: 12px;
-  text-align: center;
-}
-
-.circle-step {
-  font-size: 16px;
-  font-weight: bold;
-  display: block;
-  color: #777777;
+  margin-bottom: 10px;
 }
 
 .circle-title {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
-  margin: 4px 0;
+  margin-top: 5px;
 }
 
 .circle-description {
   font-size: 10px;
+  margin: 4px 0;
+}
+
+.circle-step {
+  position: absolute;
+  bottom: -35px;
+  font-size: 14px;
+  font-weight: bold;
   color: #555555;
 }
 
-/* Wave Alignment */
-.roadmap-circle:nth-child(odd) {
-  transform: translateY(-20px);
-}
-
-.roadmap-circle:nth-child(even) {
-  transform: translateY(20px);
-}
-
-/* Colors for Quarters */
+/* Colors for Circles */
 .q1 {
-  border: 4px solid #f39c12; /* Orange */
+  border: 5px solid #f39c12;
 }
 
 .q2 {
-  border: 4px solid #e74c3c; /* Red */
+  border: 5px solid #e74c3c;
 }
 
 .q3 {
-  border: 4px solid #16a085; /* Teal */
+  border: 5px solid #16a085;
 }
 
 .q4 {
-  border: 4px solid #8e44ad; /* Purple */
+  border: 5px solid #8e44ad;
+}
+
+/* Updated Wave Alignment */
+.roadmap-circle:nth-child(1) {
+  transform: translateY(1rem);
+}
+.roadmap-circle:nth-child(2) {
+  transform: translateY(-1rem);
+}
+.roadmap-circle:nth-child(3) {
+  transform: translateY(-4rem);
+}
+.roadmap-circle:nth-child(4) {
+  transform: translateY(-12rem);
+}
+.roadmap-circle:nth-child(5) {
+  transform: translateY(-16rem);
+}
+.roadmap-circle:nth-child(6) {
+  transform: translateY(-24rem);
+}
+.roadmap-circle:nth-child(7) {
+  transform: translateY(-26rem);
+}
+.roadmap-circle:nth-child(8) {
+  transform: translateY(-27rem);
 }
